@@ -2,7 +2,7 @@
 <?php require_once 'form.html'; ?>
 <?php
 
-    if ( $data_type = $_POST['data_type'] === 'Select' ) {
+    if ( $data_type = $_POST['type'] === 'Choose...' ) {
         echo '<p>Select All Fields</p>';
     } else {
        get_file();
